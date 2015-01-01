@@ -22,11 +22,6 @@ Introduction to Virtualization
 
 'I herd U liked computers, so I put a computer in your computer so you can compute while you compute'
 
-Contents:
-
-.. toctree::
-   :maxdepth: 2
-
 
 Virtualization
 ==============
