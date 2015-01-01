@@ -30,8 +30,10 @@ Virtualization
 * The type covered here is 'to run one computer (Operating System and software) inside another'
 * Gives additional control and options that may not be available on the 'inner' OS
 
+
 Uses
-----
+====
+
 * Learning - OSes, configurations, software
 * Testing
 
@@ -39,15 +41,20 @@ Uses
 Technologies - Backend
 ======================
 
-Small Scale
------------
+
+.. nextslide::
+
+:Small Scale:
+
 * Virtualbox
 * VMware Workstation (Windows/Linux) & Fusion (Mac)
 * QEMU/KVM
 * Xen
 
-Large Scale
------------
+.. nextslide::
+
+:Large Scale:
+
 * VMware ESXi
 * QEMU/KVM
 * Xen
@@ -57,19 +64,21 @@ Large Scale
 Technologies - Frontend
 =======================
 
-Small Scale
------------
+
+.. nextslide::
+
+:Small Scale:
+
 * VirtualBox
 * VMware Client
 * Vagrant
   - Universal CLI Frontend
 * Libvirt (QEMU/KVM, Xen)
-  - virsh CLI
-  - VMM (Virtual Machine Manager) GUI
-  - Universal CLI & GUI interface
 
-Large Scale
------------
+.. nextslide::
+
+:Large Scale:
+
 * VMware vSphere Client/Web
 * Ganeti (KVM)
 * Xen Orchestra
