@@ -41,6 +41,7 @@ Uses
 Technologies - Backend
 ======================
 
+The backend, or hypervisor, performs the virtualization. It creates and connects the various virtual hardware assigned to the virtual machine when it is started, runs the machine, and disconnects and destroys the virtual hardware when the machine is stopped.
 
 .. nextslide::
 
@@ -64,6 +65,7 @@ Technologies - Backend
 Technologies - Frontend
 =======================
 
+The frontend is whatever method the user has of interacting with the virtual machine.
 
 .. nextslide::
 
@@ -72,8 +74,11 @@ Technologies - Frontend
 * VirtualBox
 * VMware Client
 * Vagrant
-  - Universal CLI Frontend
+   - Universal CLI Frontend
 * Libvirt (QEMU/KVM, Xen)
+   - virsh CLI
+   - VMM (Virtual Machine Manager) GUI
+   - Universal CLI & GUI interface
 
 .. nextslide::
 
@@ -83,4 +88,4 @@ Technologies - Frontend
 * Ganeti (KVM)
 * Xen Orchestra
 * OpenStack Horizon
-  - Universal Web Frontend
+   - Universal Web Frontend
