@@ -6,6 +6,14 @@ Intro to Virtualization
 
 These are the slides for an introductory overview of virtualization, and demonstration and workshop using VirtualBox_ and Vagrant_.
 
+:README.rst:
+  This README.
+
+:index.rst:
+  The Introduction slides.
+
+Other slide-decks/content to follow in other .rst files.
+
 Usage
 =====
 

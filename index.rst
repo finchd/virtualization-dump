@@ -2,7 +2,7 @@
 .. Introduction to Virtualization slides file, created by
    hieroglyph-quickstart on Mon Dec 15 21:52:38 2014.
 
-.. Copyright {yyyy} {name of copyright owner}
+.. Copyright 2015 Donovan Finch
 
 .. Licensed under the Apache License, Version 2.0 (the "License");
 .. you may not use this file except in compliance with the License.
@@ -36,6 +36,8 @@ Uses
 
 * Learning - OSes, configurations, software
 * Testing
+* Security Separation - keeping separate what could run together
+* Multiplexing - running together (on the same physical hardware) what cannot be run together (on the same OS, etc)
 
 
 Technologies - Backend
