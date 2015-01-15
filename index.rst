@@ -22,6 +22,13 @@ Introduction to Virtualization
 
 'I herd U liked computers, so I put a computer in your computer so you can compute while you compute'
 
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+   intro-virtualbox
+   intro-vagrant
 
 Virtualization
 ==============
@@ -40,6 +47,31 @@ Uses
 * Multiplexing - running together (on the same physical hardware) what cannot be run together (on the same OS, etc)
 
 
+Terminology
+===========
+
+:Template:
+  A file listing the virtual hardware of a VM.
+
+:Virtual Machine (VM):
+  The files describing a complete virtual computer. At minimum a file listing the virtual hardware and the booting media.pp
+
+:Instance:
+  A created VM. When an instance is created, the virtual hardware is created, including reserving RAM and starting the process that will run the virtual computer's code.
+
+.. Small systems use VM to also refer to the instance.
+
+.. nextslide::
+
+:Host:
+  Physical computer and booting OS.
+
+:Hardware Acceleration:
+  The ability of the host CPU to perform special virtualixation improving actions. Intel VT-x, AMD-V
+
+:3D Acceleration:
+  The ability for the host and backend to pass GPU commands between the host and a guest.
+
 Technologies - Backend
 ======================
 
@@ -51,6 +83,7 @@ The backend, or hypervisor, performs the virtualization. It creates and connects
 
 * Virtualbox
 * VMware Workstation (Windows/Linux) & Fusion (Mac)
+* Parallels
 * QEMU/KVM
 * Xen
 
@@ -74,7 +107,8 @@ The frontend is whatever method the user has of interacting with the virtual mac
 :Small Scale:
 
 * VirtualBox
-* VMware Client
+* VMware Workstation/Fusion Client
+* Parallels
 * Vagrant
    - Universal CLI Frontend
 * Libvirt (QEMU/KVM, Xen)

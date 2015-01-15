@@ -12,6 +12,12 @@ These are the slides for an introductory overview of virtualization, and demonst
 :index.rst:
   The Introduction slides.
 
+:intro-virtualbox.rst:
+  A quick intro to VirtualBox_.
+
+:intro-vagrant.rst:
+  A quick intro to Vagrant_.
+
 Other slide-decks/content to follow in other .rst files.
 
 Usage
