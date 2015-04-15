@@ -105,7 +105,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -292,7 +292,7 @@ slide_levels = 3
 epub_title = u'Introduction to Virtualization'
 epub_author = u'Donovan Finch'
 epub_publisher = u'Donovan Finch'
-epub_copyright = u'2014, Donovan Finch'
+epub_copyright = u'2015, Donovan Finch'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Introduction to Virtualization'
